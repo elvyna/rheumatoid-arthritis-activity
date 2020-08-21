@@ -7,12 +7,11 @@ The structure of this repository is as follows.
 ```
 0-dataset:
 - 0-ra-data:
-	- baseline
-	- baseline-ap
-	- follow-up
-	- follow-up-ap
-- 1-raw-combined
-- 2-preprocessed
+  - baseline
+  - baseline-ap
+  - follow-up
+  - follow-up-ap
+- 1-preprocessed
 
 1-preprocessing:
 - python
