@@ -13,10 +13,7 @@ The structure of this repository is as follows.
   - follow-up-ap
 - 1-preprocessed
 
-1-preprocessing:
-- python
-- R
-- SAS
+1-preprocessing
 
 2-analysis:
 - conventional-approach
