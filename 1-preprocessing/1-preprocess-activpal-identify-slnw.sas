@@ -1,4 +1,14 @@
-%let FILEPATH = "/folders/myfolders/dataset/activpal_pid_61_72_fu.csv";
+/*=============================================*/
+/*=================REFERENCE===================*/
+/*=============================================*/
+/*Source: 
+Winkler, E. A., Bodicoat, D. H., Healy, G. N., Bakrania, K., Yates, T., 
+Owen, N., Dunstan, D. W., & Edwardson, C. L. (2016).
+Identifying adults' valid waking wear time by automated estimation in activPAL data collected with a 24 h wear protocol. 
+Physiological measurement, 37(10), 1653–1668. https://doi.org/10.1088/0967-3334/37/10/1653*/
+
+*Define file path;
+%let FILEPATH = "/folders/myfolders/dataset/activpal_pid_61_72_fu.csv"; 
 %let PROCESSED_FILEPATH = "/folders/myfolders/dataset/sas-processed/activpal_pid_61_72_fu_processed.csv";
 
 proc import datafile = &FILEPATH dbms=csv out=activpal replace;
