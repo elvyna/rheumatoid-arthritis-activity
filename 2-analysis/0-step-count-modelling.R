@@ -12,7 +12,7 @@ library(lubridate)
 theme_set(theme_economist())
 
 ## set working directory  
-DIRECTORY <- '/media/elvyna/DATA/uoa/compsci791-dissertation/ap-rheumatoid-arthritis/script/'
+DIRECTORY <- '/PUT-THE-WORKING-DIRECTORY/'
 setwd(DIRECTORY)
 
 ## Define colorblind palette
