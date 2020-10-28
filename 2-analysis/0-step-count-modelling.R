@@ -303,7 +303,7 @@ ggplot(data = df_activpal_hourly) +
 ################################################################################################################################################
 
 actigraph_model_gam <- gam(
-  total_step + 1 ~ s(time_seq, bs = 'cc') + is_followup_period * is_female + bmi + xs1 + xc1 + xs2 + xc2 + # upper_bound_step_seasonality +
+  total_step + 1 ~ s(time_seq, bs = 'cc') + is_followup_period * is_female + bmi + xs1 + xc1 + xs2 + xc2 +
     is_followup_period*sf_role_emotional,
   family = Gamma(link='log'),
   data = df_actigraph_hourly_extended
