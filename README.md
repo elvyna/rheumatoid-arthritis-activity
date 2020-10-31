@@ -15,7 +15,5 @@ The structure of this repository is as follows.
 
 1-preprocessing
 
-2-analysis:
-- conventional-approach
-- compositional-approach
+2-analysis
 ```
