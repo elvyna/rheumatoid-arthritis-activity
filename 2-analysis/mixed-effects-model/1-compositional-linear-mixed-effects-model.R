@@ -17,7 +17,7 @@ theme_set(theme_minimal())
 
 DIRECTORY <- '/media/elvyna/DATA/uoa/compsci791-dissertation/ap-rheumatoid-arthritis/script/'
 setwd(DIRECTORY)
-source('deltacomp-function-adjustment.R')
+source('0-deltacomp-function-adjustment.R')
 
 ## assumption: most patients sleep between 9 PM to 5 AM (inclusive)
 SLEEP_TIME <- c(21,22,23,0,1,2,3,4,5)
