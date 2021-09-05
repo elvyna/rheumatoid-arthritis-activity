@@ -15,7 +15,7 @@ library(compositions)
 library(lme4)
 theme_set(theme_minimal())
 
-DIRECTORY <- '/media/elvyna/DATA/uoa/compsci791-dissertation/ap-rheumatoid-arthritis/script/'
+DIRECTORY <- '/PUT-THE-WORKING-DIRECTORY/'
 setwd(DIRECTORY)
 source('0-deltacomp-function-adjustment.R')
 
